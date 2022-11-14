@@ -1,7 +1,7 @@
 # Forum App
 
 ## Description
-Welcome to my Forum App. This is an online forum where users can ask questions and provide feedback to others’ questions as well. React library has been used for the client side development and PHP Symfony framework is used for the backend development.
+Welcome to my Forum App. This is an online forum where users can ask questions and provide feedback to others’ questions as well. ReactJS library has been used for the client side development and PHP Symfony framework is used for the backend development.
 
 ## Supported features
 * User - Login | Logout | Register
