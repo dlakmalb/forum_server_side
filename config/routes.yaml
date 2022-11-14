@@ -1,3 +1,57 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+index:
+   path: /
+   controller: App\Controller\DefaultController::index
+
+login_check:
+   path: /login-check
+   methods: ['POST']
+   controller: App\Controller\UserController::checkLogin
+
+register_user:
+   path: /register-user
+   methods: ['POST']
+   controller: App\Controller\UserController::registerUser
+
+get_posts:
+   path: /posts
+   methods: ['GET']
+   controller: App\Controller\PostController::getPosts
+
+get_posts_to_delete:
+   path: /posts-to-delete
+   methods: ['GET']
+   controller: App\Controller\PostController::getPostsForDelete
+
+get_pending_posts:
+   path: /pending-posts
+   methods: ['GET']
+   controller: App\Controller\PostController::getPendingPosts
+
+add_post:
+   path: /add-post
+   methods: ['POST']
+   controller: App\Controller\PostController::addPost
+
+delete_post:
+   path: /delete-post
+   methods: ['GET']
+   controller: App\Controller\PostController::deletePost
+
+update_post:
+   path: /update-post
+   methods: ['GET']
+   controller: App\Controller\PostController::updatePost
+
+get_comments:
+   path: /comments
+   methods: ['GET']
+   controller: App\Controller\CommentController::getComments
+
+add_comment:
+   path: /add-comment
+   methods: ['POST']
+   controller: App\Controller\CommentController::addComment
