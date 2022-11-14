@@ -21,9 +21,9 @@ The application is divided in two parts
 Backend services are separated from the frontend. Use REST API to access backend functionalities.
 
 ## Install and Run the Project
-1. Install Apache web server
-2. Install MySQL server
-3. Install PHP with Composer
+1. Install [Apache](https://httpd.apache.org/download.cgi) web server
+2. Install [MySQL](https://dev.mysql.com/downloads/installer/) server
+3. Install [PHP](https://www.php.net/downloads.php) with [Composer](https://getcomposer.org/download/)
 4. Clone the repository - git clone https://github.com/dlakmalb/forum_server_side.git
 5. Go to project directory - cd forum_server_side
 6. Run composer install
